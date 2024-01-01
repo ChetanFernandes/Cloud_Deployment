@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/Homepage")
+@app.route("/")
 def route():
     return render_template("public/child_static.html")
 
